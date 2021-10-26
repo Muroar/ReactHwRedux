@@ -1,0 +1,40 @@
+.formSubmit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonAddContact {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 2em;
+    margin-top: 20px;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #fdbe33 #000 #d77206;
+    border-radius: 6px;
+    background: linear-gradient(#f3ae0f, #e38916) #e38916;
+    transition: 0.2s;
+}
+.buttonAddContact:hover {
+    background: linear-gradient(#f5ae00, #f59500) #f5ae00;
+}
+.buttonAddContact:active {
+    background: linear-gradient(#f59500, #f5ae00) #f59500;
+}
+
+.nameForm {
+    text-shadow: 1px 1px white, 2px 2px #777;
+    color: #333;
+    transition: all 1s;
+    font-size: 26px;
+    font-weight: bold;
+
+}
+
+.nameForm:hover {
+    text-shadow: 1px 1px white, 2px 2px tomato;
+    color: crimson;
+}

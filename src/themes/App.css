@@ -1,0 +1,50 @@
+.h1PhoneBook {
+    text-align: center; 
+    text-shadow:
+      -1px -1px #FFF,
+      -2px -2px #FFF,
+      -1px 1px #FFF,
+      -2px 2px #FFF,
+      1px 1px #FFF,
+      2px 2px #FFF,
+      1px -1px #FFF,
+      2px -2px #FFF,
+      -3px -3px 2px #BBB,
+      -3px 3px 2px #BBB,
+      3px 3px 2px #BBB,
+      3px -3px 2px #BBB;
+    color: #FDBE33;
+    transition: all 1s;
+  }
+  
+  .h1PhoneBook:hover {
+    color: yellowgreen;
+  }
+
+  .h2Contacts {
+    text-align: center; 
+    text-shadow:
+      -1px -1px #FFF,
+      -2px -2px #FFF,
+      -1px 1px #FFF,
+      -2px 2px #FFF,
+      1px 1px #FFF,
+      2px 2px #FFF,
+      1px -1px #FFF,
+      2px -2px #FFF,
+      -3px -3px 2px #BBB,
+      -3px 3px 2px #BBB,
+      3px 3px 2px #BBB,
+      3px -3px 2px #BBB;
+    color: #FDBE33;
+    transition: all 1s;
+  }
+  .h2Contacts:hover {
+    color: yellowgreen;
+  }
+hr {
+    border: none; 
+    background-color: orange;
+    color: orange; 
+    height: 5px;
+}
