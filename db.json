@@ -2,17 +2,17 @@
   "contacts": [
     {
       "name": "Harry Potter",
-      "number": "+380 32 626 65 16",
+      "number": "380326266516",
       "id": "id-1"
     },
     {
       "id": "id-2",
       "name": "Hermione Granger",
-      "number": "+380 63 774 95 26"
+      "number": "380637749526"
     },
     {
       "name": "Ronald Weasley",
-      "number": "+380 73 137 72 22",
+      "number": "380731377222",
       "id": "id-3"
     },
     {

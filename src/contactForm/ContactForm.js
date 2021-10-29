@@ -28,12 +28,12 @@ class ContactForm extends Component {
         event.preventDefault()
 
         if (name.length > 0 && number.length > 0) {
-            const sameContact = this.props.contacts.find(contact => name === contact.name);
+            const sameContact = this.props.contacts.find(contact => number === contact.number);
 
             if (!sameContact) {
                 this.props.getAddContact({name, number, id: shortid.generate()})
             } else {
-                alert(`${name} is already in contacts`)
+                alert(`${number} is already in contacts`)
             }
         }
     }
